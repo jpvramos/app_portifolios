@@ -1,0 +1,25 @@
+appName : Portifolio
+
+routes:
+  cadastro:
+    url : /cadastro
+    template : cadastro.html
+    assets :
+      templates : /templates
+      static : /static
+
+  cadastrado:
+    url : /cadastrado
+    template : cadastrado.html
+    assets :
+      templates : /templates
+      static : /static
+
+
+databases:
+  mysql:
+    host: localhost
+    port : 3306
+    db : portifolios
+    username : user
+    password : password

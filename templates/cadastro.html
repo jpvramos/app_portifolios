@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+{%  extends "layout.html" %}
+
+{% block body %}
+    <div class="jumbotron">
+        <h1>Entre em Contato ou receba noticias sobre meu Portifolio de Projetos</h1>
+        <form class="form-signin">
+            <lable for="input_nome" class="sr-only">Nome</lable>
+            <input type="name" name="input_name" id="input_name" class="form-control" placeholder="Name" required autofocus>
+            <label for="input_email" class="sr-only">Email</label>
+            <input type="email" name="input_email" id="input_email" class="form-control" placeholder="Email address" required autofocus>
+            <label for="input_password" class="sr-only">Password</label>
+            <input type="password" name="input_password" id="input_password" class="form-control" placeholder="Password" required>
+
+            <button id="btnSignUp" class="btn btn-lg btn-primary btn-block" type="button">Cadastrar</button>
+        </form>
+
+    </div>
+
+{%  endblock  body %}
